@@ -1,0 +1,7 @@
+// ctx.fillRect(100,50,100,100);
+    // ctx.drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh);
+
+// if(gameFrame % staggerFrames == 0){
+    //     if(frameX < 6) frameX++;
+    //     else frameX = 0;
+    // }
