@@ -1,0 +1,17 @@
+<script>
+    const circle1 = {x: 10, y: 10, radius: 300};
+    const circle2 = {x: 500, y:500, radius: 150};
+
+    let dx = circle2.x - circle1.x;
+    let dy = circle2.y - circle1.y;
+    let distance = math.sqrt(dx * dx + dy * dy);
+    let sumofRadii = circle1.radius + circle2.radius;
+
+    if(distance < sumofRadii){
+        //circle collide
+    }else if(distance === sumofRadii){
+        //circles are toucking
+    }else if (distance > sumofRadii){
+        //no collision
+    }
+</script>
